@@ -1,5 +1,4 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { addSyntheticLeadingComment } from "typescript";
 import agent from "../api/agent";
 import { Photo, Profile } from "../models/profile";
 import { store } from "./store";

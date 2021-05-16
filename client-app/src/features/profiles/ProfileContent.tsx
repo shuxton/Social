@@ -1,5 +1,4 @@
  import React from 'react';
-import { render } from 'react-dom';
 import { Tab } from 'semantic-ui-react';
 import { Profile } from '../../app/models/profile';
 import ProfilePhoto from './ProfilePhoto';

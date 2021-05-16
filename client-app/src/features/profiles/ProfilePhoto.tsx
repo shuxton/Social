@@ -58,7 +58,7 @@ export default observer(function ProfilePhotos({profile} : Props) {
                     ) : (
                         <Card.Group itemsPerRow={5}>
                             {
-                            profile.photos ?. map(photo => (
+                            profile.photos?.map(photo => (
                                 <Card key={
                                     photo.id
                                 }>
