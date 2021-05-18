@@ -12,7 +12,7 @@ export default observer(function ProfileFollowings(){
         <Tab.Pane loading={loadingFollowings}>
             <Grid>
                 <Grid.Column width={16}>
-                    <Header floated='left' icon='user' content={activeTab === 3 ? `People following ${profile?.displayName}`:`People ${profile?.displayName} ${followings.length} is following`}/>
+                    <Header floated='left' icon='user' content={activeTab === 3 ? `People following ${profile?.displayName}`:`People ${profile?.displayName} is following`}/>
                 </Grid.Column>
                 <Grid.Column width={16}>
                     <Card.Group itemsPerRow={4}>
@@ -26,3 +26,5 @@ export default observer(function ProfileFollowings(){
         </Tab.Pane>
     )
 })
+
+
